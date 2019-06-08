@@ -33,11 +33,10 @@ class Moneta(arcade.Sprite):
         # Spradzamy czy dotarliśmy do ściany
         # Jeśli tak to się obracamy i idziemy w drugą stronę
 
-        """ Zadanie 5: Czy monety powinny uciekać?
+        """ Zadanie 4: Czy monety powinny uciekać?
         Jeśli tak to należy usunąć znaki "x". Monety zostaną usunięte z planszy pod warunkiem,
         że odbiją się więcej razy niż będzie na to wskazywała zmienna MAKSYMALNA_LICZA_ODBIC"""
         #if self.liczba_odbic > MAKSYMALNA_LICZA_ODBIC:
-        #    self.kill()
 
         if self.center_x <= 0:
             self.ruch_poziomy *= -1
@@ -104,8 +103,7 @@ class GraPoszukiwaczaSkarbu(arcade.Window):
         """ Część 4 - tworzymy monety """
         for i in range(LICZBA_MONET):
 
-            """ Zadanie 3: Dlaczego nie widzimy monet?"""
-            moneta = Moneta("grosik.png", WIELKOSC_MONET/100)
+            moneta = Moneta("grosik.png", WIELKOSC_MONET)
 
             # Ustawiamy pozycje
             moneta.center_x = random.randrange(EKRAN_DLUGOSC)
@@ -129,25 +127,22 @@ class GraPoszukiwaczaSkarbu(arcade.Window):
         """ Część 5 - tworzymy monety """
         """ Zadanie 1: Wyświetlmy na ekranie informacje o liczbie zebranych monet"""
         # tablica_wyniku = f"Wynik: {self.wynik}"
-        # arcade.draw_text(tablica_wyniku, 10, 20, arcade.color.WHITE, 14)
 
     """ Część 5 - ruch monet """
-    def on_mouse_motion(self, x, y, dx, dy):
-        """ Zadanie 2: Nauczmy naszego pirata chodzić.
-        Zmienne "x" oraz "y" przechowują informacje o położeniu naszej myszki na ekranie
-        Dlatego możemy ich użyć aby zmusić naszego pirata do ruszania.
-        Aby to zrobić musimy pirata poinformować o zmienie zmiennych: center_x oraz center_y
-        Pirat będzie wtedy wiedział, że musi się przesunać
-        """
-        # self.gracz.center_x =
-        # self.gracz.center_y =
+
+    """ Zadanie 2: Nauczmy naszego pirata chodzić.
+    Zmienne "x" oraz "y" przechowują informacje o położeniu naszej myszki na ekranie
+    Dlatego możemy ich użyć aby zmusić naszego pirata do ruszania.
+    Aby to zrobić musimy pirata poinformować o zmienie zmiennych: center_x oraz center_y
+    Pirat będzie wtedy wiedział, że musi się przesunać
+    """
 
 
     """ Część 7 - Wykrywanie kolizji """
     # Komenda zajmująca się aktualizacja naszego poszukiwacza skarbów,
     # wszystkich monet czy wykryciem kolizji
     def update(self, delta_time):
-        """ Zadanie 4: Ruch monet oraz wykrycie znalezienia monety przez pirata"""
+        """ Zadanie 3: Ruch monet oraz wykrycie znalezienia monety przez pirata"""
         #self.lista_monet.update()
 
         """ Utworzenie zmiennej która będzie zawierała liste moment,

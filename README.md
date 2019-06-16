@@ -14,12 +14,23 @@ http://arcade.academy
 ## Przebieg zajęć
 Po kilku słowach wstępu dotyczących programowania, wraz z uczestnikami, ruszyliśmy do boju i rozpoczęliśmy tworzenie naszej gry "Poszukiwacze skarbów". 
 
-Tworzenie gry rozpoczęliśmy od szablonu [Zadania_1.py](zadania/Zadania_1.py). W pierwszej kolejności uczestnicy dowiedzieli się jak, w prosty sposób, można zmienić tło naszej gry oraz ukryć kursor myszki.
+Podczas zajęć udało nam się zrealizować zakres pokryty przez pierwsze 7 plików:\
+[1_poczatek.py](1_poczatek.py) - "Suchy" kod, którego zadaniem jest uruchomienie i wyświetlenie pustego (czarnego) okna gry\
+[2_przygotowanie_okna.py](2_przygotowanie_okna.py) - W tej części pojawia się kod odpowiedzialny na kolorowanie okna oraz przygotowanie zmiennych do przechowywania gracza oraz monet \
+[3_wstawiamy_swojego_gracza.py](3_wstawiamy_swojego_gracza.py) - Dodajemy naszego gracza, jeszcze nie potrafi się ruszać\
+[4_wstawiamy_monety.py](4_wstawiamy_monety.py) - Dodajemy monety, jeszcze nie potrafią się ruszać\
+[5_ruch_wynik.py](5_ruch_wynik.py) - Uczymy chodzić naszego pirata oraz dajemy tablice wyniku\
+[6_kolizje.py	Add](6_kolizje.py) - Zaczynamy wykrywać kontakt z monetami\
+[7_ruch_monet.py](7_ruch_monet.py) - Dodajemy ruch monet
 
-W następnej fazie zajęliśmy się bardziej złożonymi zagadnieniami przedstawionymi w [Zadania_2.py](zadania/Zadania_2.py). Udało nam się zrealizować wszystkie 4 zadania! Uwaga: Niektóre punkty zawierają błędy, pomijają niektóre fragmenty kodu. Zadaniem uczestników było ich wykrycie - z zadania wywiązali się znakomicie!
 
-Odpowiedzi znajdują się w plikach 
-[Zadania_1_Odpowiedzi.py](zadania/Zadania_1_Odpowiedzi.py)
+## Bonus
+Poniżej znajdą Państwo dwa pliku ze zbiorem różnych zadań:
+[Zadania_1.py](zadania/Zadania_1.py) - W pierwszej części uczestnicy dowiedzą się jak, w prosty sposób, można zmienić tło naszej gry oraz ukryć kursor myszki./
+[Zadania_2.py](zadania/Zadania_2.py) - Plik posiada już gotowy kod, który rysuje pirata, monety. Zadaniem uczestiników będzie dopisanie kodu, który umożliwi ruchanie pirata/monet czy wykrywanie trafienia monety. Uwaga: Niektóre punkty zawierają błędy, pomijają niektóre fragmenty kodu. Zadaniem uczestników było ich wykrycie - z zadania wywiązali się znakomicie!/
+
+Odpowiedzi znajdują się w plikach:\
+[Zadania_1_Odpowiedzi.py](zadania/Zadania_1_Odpowiedzi.py)\
 [Zadania_2_Odpowiedzi.py](zadania/Zadania_2_Odpowiedzi.py)
 
 
